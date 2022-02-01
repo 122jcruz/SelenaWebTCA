@@ -5,8 +5,19 @@
 .la {
   font-family: "Dosis", sans-serif;
 }
-.background {
+.background1 {
   height: 50%;
+  background-image: url("../img/sel1.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 1000px;
+}
+.background2 {
+  height: 50%;
+  background-image: url("../img/sel2.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 1000px;
 }
 .dis {
   font-family: "Bebas Neue", cursive;
