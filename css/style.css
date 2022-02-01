@@ -1,0 +1,42 @@
+.nav-link {
+  font-family: "Dosis", sans-serif;
+  font-size: 125%;
+}
+.la {
+  font-family: "Dosis", sans-serif;
+}
+.background {
+  height: 50%;
+}
+.dis {
+  font-family: "Bebas Neue", cursive;
+  font-size: 250%;
+}
+.dis1 {
+  font-size: 550%;
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  font-family: "PT Sans", sans-serif;
+}
+.albrow,
+.moments,
+.legacy {
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+.album {
+  width: 200px;
+  height: 200px;
+}
+.border {
+  color: #3b3d3d;
+}
+.icon {
+  width: 150px;
+  height: 150px;
+}
+
+.song {
+  font-family: "Dosis", sans-serif;
+}
