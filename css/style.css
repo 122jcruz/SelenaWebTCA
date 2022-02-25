@@ -1,3 +1,7 @@
+.hideme
+{
+    opacity:0;
+}
 .nav-link {
   font-family: "Dosis", sans-serif;
   font-size: 125%;
@@ -19,7 +23,7 @@
   background-position: center center;
   min-height: 1000px;
 }
-nav-link:hover{
+.nav-link:hover{
   color:#923cb5;
 }
 .dis {
