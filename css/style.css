@@ -1,8 +1,8 @@
-
 .nav-link {
   font-family: "Dosis", sans-serif;
   font-size: 125%;
 }
+
 .la {
   font-family: "Dosis", sans-serif;
 }
@@ -19,9 +19,6 @@
   background-size: cover;
   background-position: center center;
   min-height: 1000px;
-}
-.nav-link:hover{
-  color:#923cb5;
 }
 .dis {
   font-family: "Bebas Neue", cursive;
