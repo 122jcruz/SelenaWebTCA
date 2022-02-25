@@ -19,6 +19,9 @@
   background-position: center center;
   min-height: 1000px;
 }
+a:hover{
+  color:#923cb5;
+}
 .dis {
   font-family: "Bebas Neue", cursive;
   font-size: 250%;
