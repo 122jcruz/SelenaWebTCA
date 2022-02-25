@@ -19,7 +19,7 @@
   background-position: center center;
   min-height: 1000px;
 }
-a:hover{
+nav-link:hover{
   color:#923cb5;
 }
 .dis {
