@@ -22,6 +22,8 @@
   </head>
   <body>
     <!---->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
         <button
@@ -127,9 +129,9 @@
       <div class="row py-5 albrow" id="albums">
         <div class="col">
           <h1 class="text-center text-light dis">Albums</h1>
-          <div class="container">
+          <div class="container-fluid">
             <div class="row row-cols-1 row-cols-lg-4 g-2 g-lg-3">
-              <div class="col">
+              <div class="col container">
                 <div class="p-3 bg-transparent">
                   <img
                     class="album border border-3 mx-auto d-block"
@@ -245,7 +247,7 @@
       <div class="row py-5" id="quick">
         <div class="col">
           <h3 class="text-center py-5 dis">Listen and Follow</h3>
-          <div class="container">
+          <div class="container-fluid">
             <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
               <div class="col">
                 <div class="p-3 bg-transparent">
@@ -553,11 +555,11 @@
       <div class="row" id="hits">
         <div class="col py-5">
           <h1 class="text-center py-4 dis">Greatest Hits</h1>
-          <div class="container">
-            <div class="row row-cols-1 row-cols-lg-3 g-1 g-lg-2 ">
+          <div class="container-fluid ">
+            <div class="row row-cols-1 row-cols-lg-3 g-1 g-lg-2 text-center fw-bold ">
               <div class="col">
                 <div class="p-3 bg-transparent ">
-                  <h4 class="song">Bibi Bidi Bom Bom</h>
+                  <h4 class="song py-2">Bibi Bidi Bom Bom</h>
                   <iframe
                     width="350"
                     height="315"
@@ -644,8 +646,8 @@
 <div class="row legacy" id="legacy" >
   <div class="col col-md-6 py-5">
     <h2 class="text-center text-light dis ">Selena's Legacy</h2>
-    <div class="container-lg my-s py-2 px-4">
-    <p class="text-center text-light px-5" >Selena continues to be an inspirtation to all those who follow her. Her music is heard almost everywhere. Selena continues to be a style icon with her inovative fashion styles that were ahead if her time. Her legacy continues to be honored with the 1997 release of <i>Selena The Movie, Selena the Series</i> Netflix Version, To Selena with Love the novel. Selena was honored with the Lifetime Achievement Award at the 2021 Grammys. </p>
+    <div class="container-lg my-s py-5 px-4">
+    <p class="text-center text-light " >Selena continues to be an inspirtation to all those who follow her. Her music is heard almost everywhere. Selena continues to be a style icon with her inovative fashion styles that were ahead if her time. Her legacy continues to be honored with the 1997 release of <i>Selena The Movie, Selena the Series</i> Netflix Version, To Selena with Love the novel. Selena was honored with the Lifetime Achievement Award at the 2021 Grammys. </p>
     </div>
   </div>
   <div class="col col-md-6">
@@ -660,6 +662,27 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
